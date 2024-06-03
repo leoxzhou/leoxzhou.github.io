@@ -1,0 +1,103 @@
+---
+layout: single
+author_profile: true
+permalink: /research/
+title: Research Overview
+---
+
+<p>
+	My current research topics include: quantum complexity theory, quantum algorithms, optimization and inference problems, non-equilibrium physics, spin glasses, quantum advantages in experiments. Below, I will briefly describe some of these topics, along with related publications.
+</p>
+
+<hr>
+<h3>
+	<strong>Complexity of Quantum Many-body Systems</strong>
+</h3>
+
+<p>
+	<!--break-->
+</p>
+
+
+<p>
+	<img src="/assets/img/Analog-Quantum-Simulation.png" width="400" height="205" alt="Analog Hamiltonian simulation" class="align-right">
+	A system of many quantum particles is highly complex. Because of quantum entanglement, complete characterization of the state of a quantum system requires an exponentially large classical description in general. This nonclassicality necessitates developments of quantum extensions to classical complexity theory. For example, we can prove that some procedures that are often used in classical computer science for simplifying complex systems fundamentally cannot be generalized to the quantum setting. Another interesting question is: When can complex quantum systems be simulated by simpler ones? We show that certain simple 1D and 2D systems are universal simulators, in the sense that they can efficiently reproduce the physics of any physically realizable quantum systems. Furthermore, we develop theories to understand the energy landscape of quantum many-body system. Our results show that finding a local minimum of the energy is computational hard for classical computers, but easy for quantum computers.
+
+</p>
+
+<ul>
+	<li>
+		<em>Local minima in quantum systems [<a data-url="https://arxiv.org/abs/2309.16596" href="https://arxiv.org/abs/2309.16596" target="_blank" title="">arXiv:2309.16596 (2023)</a>; Accepted to QIP & STOC 2024] (<a data-url="https://youtu.be/-cHfyHHO_30" href="https://youtu.be/-cHfyHHO_30" target="_blank" title="">video</a>)</em> 
+		<ul>
+			<li>Featured in a <a data-url="https://www.quantamagazine.org/physicists-finally-find-a-problem-only-quantum-computers-can-do-20240312/" href="https://www.quantamagazine.org/physicists-finally-find-a-problem-only-quantum-computers-can-do-20240312/" target="_blank" title="">pop-science article in Quanta Magazine</a>  (Front page, March 12, 2024) </li>
+		</ul>
+	</li>
+	<li>
+		<em>Strongly Universal Hamiltonian Simulators [QIP 2021] (<a data-url="https://simons.berkeley.edu/talks/universal-hamiltonia" href="https://simons.berkeley.edu/talks/universal-hamiltonia" target="_blank" title="">video</a>)</em>
+	</li>
+	<li>
+		<em>Hamiltonian sparsification and gap-simulations [<a data-url="https://doi.org/10.4230/LIPIcs.ITCS.2019.2" href="https://doi.org/10.4230/LIPIcs.ITCS.2019.2" target="_blank" title="">ITCS 2019</a>; QIP 2019] (<a data-url="https://youtu.be/Ojb7s70qEQ0" href="https://youtu.be/Ojb7s70qEQ0" target="_blank" title="">video</a>)</em>
+	</li>
+</ul>
+
+<hr>
+<h3>
+	<strong>Theory of Quantum Optimization Algorithms</strong>
+</h3>
+
+<p>
+	<!--break-->
+</p>
+
+<p>
+	<img src="/assets/img/qaoa-diag.png" width="400" height="200" alt="QAOA circuit" class="align-right">
+	Since optimization problems are ubiquitous in real-world applications, it is important to understand whether there is any advantage in using quantum algorithms for solving them. Although a few quantum optimization algorithms have been proposed, we have very limited (and often merely heuristical) understanding of how well they work in practice. To address this issue, we perform both rigorous theoretical analysis and numerical experiments on the popular Quantum Approximate Optimization Algorithm (QAOA), which has seen small-scale implementations on current quantum devices. Our results show both provable advantages and limitations of the QAOA in the constant-depth regime, and shed light on physical mechanisms that suggest larger speedups at high depths. Furthermore, this line of research reveals many fruitful connections to the mathematical theory of spin glasses and high-dimensional statistics. A provocative open question is: Can quantum algorithms achieve superpolynomial quantum speedups in optimization problems? This could be achieved, for example, by overcoming (provable) barriers well-studied in classical algorithms such as the overlap gap property (OGP).
+</p>
+
+<ul>
+	<li>
+		<em>Performance and limitations of the QAOA at constant levels on large sparse hypergraphs and spin glass models [<a data-url="https://doi.org/10.1109/FOCS54457.2022.00039" href="https://doi.org/10.1109/FOCS54457.2022.00039" target="_blank" title="">FOCS 2022</a>] (<a data-url="https://youtu.be/w_xWoMnRFT8" href="https://youtu.be/w_xWoMnRFT8" target="_blank" title="">video</a>)</em>
+	</li>
+	<li>
+		<em>The QAOA at High Depth for MaxCut on Large-Girth Regular Graphs and the Sherrington-Kirkpatrick Model [<a data-url="https://doi.org/10.4230/LIPIcs.TQC.2022.7" href="https://doi.org/10.4230/LIPIcs.TQC.2022.7" target="_blank" title="">TQC 2022</a>, Outstanding Paper Award] (<a data-url="https://youtu.be/yYmwfEYtKO4?t=4062" href="https://youtu.be/yYmwfEYtKO4?t=4062" target="_blank" title="">video</a>)</em>
+	</li>
+	<li>
+		<em>The Quantum Approximate Optimization Algorithm and the Sherrington-Kirkpatrick Model at Infinite Size [QIP 2021; <a data-url="https://quantum-journal.org/papers/q-2022-07-07-759/" href="https://quantum-journal.org/papers/q-2022-07-07-759/" target="_blank" title="">Quantum (2022)</a>] (<a data-url="https://youtu.be/UP-Zuke7IUg" href="https://youtu.be/UP-Zuke7IUg" target="_blank" title="">video</a>)</em>
+	</li>
+	<li>
+		<em>Quantum Approximate Optimization Algorithm: Performance, Mechanism, and Implementation on Near-Term Devices [<a data-url="https://doi.org/10.1103/PhysRevX.10.021067" href="https://doi.org/10.1103/PhysRevX.10.021067" target="_blank" title="">Phys. Rev. X (2020)</a>]</em>
+	</li>
+</ul>
+
+<hr>
+<h3>
+	<strong>Experimental Realizations of Quantum Applications</strong>
+</h3>
+
+<p>
+	<!--break-->
+</p>
+
+<p>
+	<img src="/assets/img/Rydberg-atoms.png" width="500" height="184" alt="Rydberg atom array experiment" class="align-right">
+	Although quantum theory promises advantages and speedups for certain applications, implementing them in practice on a real-world quantum device is highly challenging due to imperfections and couplings to environments. To help realize the many promising quantum applications in the laboratory, we work closely with experimentalists (using systems such as Rydberg atoms and superconducting qubits) and push the limits of quantum technology.
+</p>
+
+<ul>
+	<li>
+		<em>Quantum Optimization of Maximum Independent Set using Rydberg Atom Arrays [<a data-url="https://doi.org/10.1126/science.abo6587" href="https://doi.org/10.1126/science.abo6587" target="_blank" title="">Science (2022)</a>]</em>
+	</li>
+	<li>
+		<em>Quantum Approximate Optimization of Non-Planar Graph Problems on a Planar Superconducting Processor [<a data-url="https://doi.org/10.1038/s41567-020-01105-y" href="https://doi.org/10.1038/s41567-020-01105-y" target="_blank" title="">Nature Physics (2021)</a>]</em>
+	</li>
+	<li>
+		<em>Repulsive photons in a quantum nonlinear medium [<a data-url="https://doi.org/10.1038/s41567-020-0917-6" href="https://doi.org/10.1038/s41567-020-0917-6" target="_blank" title="">Nature Physics (2020)</a>]</em>
+	</li>
+	<li>
+		<em>Symmetry-protected dissipative preparation of matrix product states [<a data-url="https://doi.org/10.1103/PhysRevA.104.032418" href="https://doi.org/10.1103/PhysRevA.104.032418" target="_blank" title="">Phys. Rev. A (2021)</a>]</em>
+	</li>
+	<li>
+		<em>Quantum Optimization for Maximum Independent Set using Rydberg Atom Arrays [<a data-url="https://arxiv.org/abs/1808.10816" href="https://arxiv.org/abs/1808.10816" target="_blank" title="">arXiv:1808.10816 (2018)</a>]</em>
+	</li>
+</ul>
+
