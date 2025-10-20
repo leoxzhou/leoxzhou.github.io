@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Leo Zhou"
   avatar           : /assets/img/headshot.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Seeking truths in the quantum realm"
+  bio              : "computing in the quantum realm"
   location         : 
   email            :
   links:
@@ -122,7 +122,10 @@ author:
     - label: "Google Scholar"
       icon: "fab fa-google"
       url: "https://scholar.google.com/citations?user=rUcRJEkAAAAJ"
-    - label: "Twitter"
+    - label: "BlueSky"
+      icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/leologist.bsky.social"
+    - label: "Twitter/X"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/leologist"
     - label: "GitHub"
